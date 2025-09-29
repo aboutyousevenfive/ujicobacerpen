@@ -5,9 +5,16 @@
   <title>Music Player</title>
 </head>
 <body>
-  <audio autoplay loop>
-    <source src="backsound.mp3" type="audio/mpeg">
-    Browser kamu tidak mendukung audio tag.
-  </audio>
+  <audio id="backsound" loop>
+  <source src="last.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  var audio = document.getElementById("backsound");
+
+  document.body.addEventListener("click", function() {
+    audio.play();
+  }, { once: true }); 
+</script>
 </body>
 </html>
