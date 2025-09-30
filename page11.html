@@ -52,6 +52,16 @@
     <p>Masih nungguin jawaban dari dia</p>
     <a href="page11.html"><button>KEMBALI</button></a>
     <a href="page12.html"><button>LANJUT</button></a>
-   <iframe src="music.html" style="display:none;"></iframe>
+<audio id="backsound" loop>
+  <source src="last.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  var audio = document.getElementById("backsound");
+
+  document.body.addEventListener("click", function() {
+    audio.play();
+  }, { once: true }); 
+</script>
   </body>
 </html>
