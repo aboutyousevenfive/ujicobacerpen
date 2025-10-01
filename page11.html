@@ -11,6 +11,7 @@
       text-align: center;
       font-family: Arial, Sans-Serif;
       color: #333;
+      padding-bottom: 50px; 
     }
      
     h1 {
@@ -23,7 +24,7 @@
       margin-top:0;
     }
     
-    p {
+    .ok {
       font-size: 25px;
       background-color: #fff3f3;
       border-radius: 14px;
@@ -42,17 +43,33 @@
       height: 45px;
     }
     
-    button:hover {
+    .bak:hover {
       background-color: #fff3f3;
     }
+    
+    .y {
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    color: #333; 
+    text-align: center; 
+    padding: 10px 0; 
+    z-index: 100; 
+    font-size: 14px;
+    font-style: italic;
+}
   </style>
   <body>
     <h1>CHAPTER-X</h1>
     <h2>"The Last Chapter"</h2>
-    <p>Masih nungguin jawaban dari dia</p>
-    <a href="page10.html"><button>KEMBALI</button></a>
-    <button>LANJUT</button>
-<audio id="backsound" loop>
+    <p class="ok">Masih nungguin jawaban dari dia</p>
+    <a href="page10.html" ><button class="bak">KEMBALI</button></a>
+    <button>LANJUT</button></a>
+    <footer class="bottom-text">
+    <p class="y">Made by: Farhan</p>
+</footer>
+    <audio id="backsound" loop>
   <source src="last.mp3" type="audio/mpeg">
 </audio>
 
