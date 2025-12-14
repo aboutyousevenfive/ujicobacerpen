@@ -502,6 +502,11 @@ function renderPage() {
     document.getElementById("chapterJudul").innerHTML = pages[pageIndex].judul;
     document.getElementById("chapterSubjudul").innerHTML = pages[pageIndex].subjudul;
     document.getElementById("chapterIsi").innerHTML = pages[pageIndex].isi;
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 }
 
 function nextBtn() {
@@ -519,3 +524,4 @@ function prevBtn() {
 };
 
 renderPage();
+
