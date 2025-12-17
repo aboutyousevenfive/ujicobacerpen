@@ -448,7 +448,7 @@ const pages = [
     {
         judul: "CHAPTER IX",
         subjudul: "Melody yang Tak Pernah Usai",
-        isi: `i 3 malam untuk menyelesaikan pendahuluan dari esai yang berisi perasaan ku kepadamu. Dan
+        isi: `2 hari 3 malam untuk menyelesaikan pendahuluan dari esai yang berisi perasaan ku kepadamu. Dan
     akhirnya aku berani melangkah ke bagian inti. Aku menuliskan kalimat pertama yang terasa berat namun melegakan:
     <br><br>
     "<i>Isi esai ini kubagi menjadi tiga bagian: Mengurai Perasaan, Butterfly Era & Musik Perasaan, serta Sebuah
@@ -524,4 +524,5 @@ function prevBtn() {
 };
 
 renderPage();
+
 
