@@ -1,7 +1,7 @@
 const pages = [
     {
         judul: "CHAPTER I",
-        subjudul: "Sunti Yang Menyimpan Rindu",
+        subjudul: "Sunyi Yang Menyimpan Rindu",
         isi: `Malam ini sunyi. Sunyi sampai rasanya udara ikut menahan napas. Aku duduk sendiri di kamar, tangan menggenggam
   selimut tipis, menatap gelap di luar jendela, merasakan rindu yang menekan dadaku sampai hampir patah.
   <br><br>
@@ -61,7 +61,7 @@ const pages = [
     },
     {
        judul: "CHAPTER II",
-        subjudul: "HUjan di Dalam Hatiku",
+        subjudul: "Hujan di Dalam Hatiku",
         isi:  `Hujan menetes perlahan di luar rumah, menaburi dedaunan dan bangku kosong. Udara dingin menusuk, tapi hatiku terasa
   hangat sekaligus hancur. Aku mencintaimu—tanpa syarat, tanpa janji. Cinta yang membuatku tersenyum... juga menangis
   dalam diam.
@@ -214,7 +214,7 @@ const pages = [
     },
     {
         judul: "CHAPTER V",
-        subjudul: "Haning yang Bicara",
+        subjudul: "Hening yang Bicara",
         isi: `Sejak hari itu, aku terbiasa menyimpan rasa. Bukan karena tidak ingin, tapi karena tidak berani. Diam menjadi
     satu-satunya cara agar segalanya tetap terlihat baik-baik saja.
     <br><br>
@@ -524,5 +524,6 @@ function prevBtn() {
 };
 
 renderPage();
+
 
 
